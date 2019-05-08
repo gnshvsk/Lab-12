@@ -51,7 +51,7 @@ echo    pause >> "%PROJECT_NAME%".bat
 echo    exit 1 >> "%PROJECT_NAME%".bat
 echo ) >> "%PROJECT_NAME%".bat
 echo.>> "%PROJECT_NAME%".bat
-echo java -jar ../lib/%PROJECT_NAME%.jar >> "%PROJECT_NAME%".bat
+echo java -Dfile.encoding=cp866 -jar ../lib/%PROJECT_NAME%.jar >> "%PROJECT_NAME%".bat
 echo.>> "%PROJECT_NAME%".bat
 echo pause >> "%PROJECT_NAME%".bat
 
